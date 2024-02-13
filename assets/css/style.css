@@ -168,3 +168,21 @@ body{
 .btn:active{
     background: var(--clr-gradient-blue__btn);
 }
+
+@media (max-width: 600px){
+    body{
+        overflow-x: hidden;
+    }
+    .container{
+        width: 100vw;
+        flex-direction: column;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        margin-bottom: 1rem;
+    }
+    .col{
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+
+}
